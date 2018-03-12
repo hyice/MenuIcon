@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MenuIcon_Example' do
+  pod 'MenuIcon', :path => '../'
+
+  target 'MenuIcon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
