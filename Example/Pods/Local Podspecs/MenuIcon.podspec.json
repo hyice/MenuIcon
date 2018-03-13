@@ -1,0 +1,23 @@
+{
+  "name": "MenuIcon",
+  "version": "0.1.0",
+  "summary": "MenuIcon is used to display a menu icon which can auto change it's appearance to close or back style.",
+  "description": "MenuIcon default displays a icon with three lines(usually known as `hamburger`), and you can change it to a close or back or any other styles if you want. It can be used as a navigation item's custom view, so you can easily change it's apearance when user clicked was received.",
+  "homepage": "https://github.com/hyice/MenuIcon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hyice": "hyice.zhang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hyice/MenuIcon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MenuIcon/*.swift",
+  "swift_version": "4.0"
+}

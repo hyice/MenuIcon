@@ -1,0 +1,6 @@
+framework module MenuIcon {
+  umbrella header "MenuIcon-umbrella.h"
+
+  export *
+  module * { export * }
+}

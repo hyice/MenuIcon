@@ -1,0 +1,16 @@
+PODS:
+  - MenuIcon (0.1.0)
+
+DEPENDENCIES:
+  - MenuIcon (from `../`)
+
+EXTERNAL SOURCES:
+  MenuIcon:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MenuIcon: b75176da0e26293f9dd1b1ffcf9f4e57cadf6e2b
+
+PODFILE CHECKSUM: dccab76be2909a3af0c34b2c68fd2e7e85728527
+
+COCOAPODS: 1.4.0

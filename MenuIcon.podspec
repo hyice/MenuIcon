@@ -9,34 +9,19 @@
 Pod::Spec.new do |s|
   s.name             = 'MenuIcon'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MenuIcon.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'MenuIcon is used to display a menu icon which can auto change it\'s appearance to close or back style.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  MenuIcon default displays a icon with three lines(usually known as `hamburger`), and you can change it to a close or back or any other styles if you want. It can be used as a navigation item's custom view, so you can easily change it's apearance when user clicked was received.
                        DESC
 
   s.homepage         = 'https://github.com/hyice/MenuIcon'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyice' => 'hyice.zhang@gmail.com' }
   s.source           = { :git => 'https://github.com/hyice/MenuIcon.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MenuIcon/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MenuIcon' => ['MenuIcon/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'MenuIcon/*.swift'
+  s.swift_version = '4.0'
 end

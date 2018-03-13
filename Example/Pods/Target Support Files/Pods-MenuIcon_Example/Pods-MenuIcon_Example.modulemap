@@ -1,0 +1,6 @@
+framework module Pods_MenuIcon_Example {
+  umbrella header "Pods-MenuIcon_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
